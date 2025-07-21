@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOGNIBO Oladikpo - Développeur Web</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.5/sweetalert2.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">TOGNIBO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>TOGNIBO Oladikpo Géreau Auréole</h1>
+            <p class="subtitle">Développeur Web</p>
+            <p class="description">
+                Créateur d'expériences web modernes et performantes. Spécialisé dans le développement d'applications web
+                interactives et de sites web responsives qui allient créativité et fonctionnalité. <br>Code qui Connecte - Solutions qui Durent.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/img2.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>
+                    Passionné par le développement web depuis plusieurs années, je combine créativité et logique pour
+                    créer des solutions numériques innovantes. Mon approche se base sur une compréhension approfondie
+                    des besoins utilisateur et une veille technologique constante.
+                </p>
+                <p>
+                    Doté d'un esprit analytique et d'une grande capacité d'adaptation, je m'épanouis dans des
+                    environnements dynamiques où je peux relever de nouveaux défis techniques. Mon engagement associatif
+                    m'a également permis de développer des compétences en gestion de projet et en travail d'équipe.
+                </p>
+                <p>
+                    Aujourd'hui, je recherche de nouvelles opportunités pour mettre mes compétences au service d'équipes
+                    ambitieuses, que ce soit en tant qu'employé ou en freelance pour accompagner des entreprises dans
+                    leur transformation digitale.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Mes compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>🎨 Frontend</h3>
+                <ul class="skill-list">
+                    <li>HTML5 / CSS3</li>
+                    <li>JavaScript ES6+</li>
+                    <li>React.js</li>
+                    <li>Responsive Design</li>
+                    <li>CSS Grid & Flexbox</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>🛠️ Outils & Workflow</h3>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Chrome DevTools</li>
+                    <li>Figma</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>🔧 CMS & Backend</h3>
+                <ul class="skill-list">
+                    <li>WordPress</li>
+                    <li>Gestion de bases de données</li>
+                    <li>API REST</li>
+                    <li>Hébergement web</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>📋 Gestion de projet</h3>
+                <ul class="skill-list">
+                    <li>Notion</li>
+                    <li>Trello</li>
+                    <li>Méthodologies Agiles</li>
+                    <li>CapCut (Vidéo)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Mes projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Capture d'écran 2025-05-30 165324.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 165445.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 165702.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 165721.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 165737.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 170139.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 170202.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 170234.png" alt="">
+                    <img src="images/Capture d'écran 2025-05-30 170252.png" alt="">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Plateforme de Formation en ligne</h3>
+                    <p class="project-description">
+                        Interface web développée pour une association de la place afin de faciliter l’accès à des
+                        contenus éducatifs à distance, en particulier pour les jeunes, les femmes et les personnes en
+                        situation de handicap. La plateforme permet à tout utilisateur inscrit de :
+
+                        consulter des modules de formation (textes, vidéos, quiz),
+
+                        suivre sa progression via un tableau de bord personnalisé,
+
+                        télécharger des ressources pédagogiques,
+
+                        obtenir une attestation à la fin de chaque parcours.
+
+                        L’administrateur dispose d’un espace de gestion pour créer, modifier ou publier de nouveaux
+                        contenus. L’interface est responsive, accessible sur mobile comme sur ordinateur, et pensée pour
+                        être simple, inclusive et évolutive.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">TailwindCss/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Mongo Atlas</span>
+                        <span class="tech-tag">Git/GitHub</span>
+                    </div>
+                    <!-- <div class="project-links">
+                        <a href="#">Voir le projet</a>
+                        <a href="#">Code source</a>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Capture d'écran 2025-06-22 121032.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 121051.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 121130.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 121212.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 121238.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 121338.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 121520.png" alt="">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Plateforme de Gestion des Tâches d’équipe</h3>
+                    <p class="project-description">
+                        Plateforme web développée pour une entreprise ou organisation souhaitant améliorer la
+                        coordination interne de ses équipes. L'application permet une gestion hiérarchique des projets
+                        et des tâches grâce à une interface sécurisée et responsive. Chaque utilisateur, en fonction de
+                        son rôle (administrateur, manager, collaborateur), dispose d’un tableau de bord personnalisé.
+
+                        L’administrateur peut gérer les comptes utilisateurs et les rôles. Le manager peut créer des
+                        projets, constituer des équipes et assigner des tâches. Les collaborateurs, quant à eux,
+                        accèdent aux tâches qui leur sont attribuées et peuvent mettre à jour leur statut en temps réel.
+                        Un système de filtres dynamiques et de retour visuel améliore l’expérience utilisateur.
+
+                        L’interface a été pensée pour être simple, intuitive et accessible sur tout appareil. Le
+                        back-end est construit avec Node.js et MongoDB, incluant une authentification sécurisée par JWT
+                        et un contrôle strict des accès par rôles. </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                    <!-- <div class="project-links">
+                        <a href="#">Voir le projet</a>
+                        <a href="#">Code source</a>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Capture d'écran 2025-06-22 140721.png" alt="">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Application de Recherche d'Images – Projet Personnel</h3>
+                    <p class="project-description">
+                        Application web responsive développée avec HTML, CSS et JavaScript pur, permettant la recherche
+                        d’images locales sans utilisation d’API. Les images sont organisées dans le projet, et un champ
+                        de recherche dynamique permet de filtrer et d’afficher les résultats en temps réel selon des
+                        mots-clés associés.
+
+                        Ce projet met en avant mes compétences en manipulation du DOM, gestion des événements
+                        utilisateur, ainsi qu’en création d’une interface fluide et intuitive. Il démontre également ma
+                        capacité à concevoir une logique de recherche efficace sur un jeu de données statiques, tout en
+                        assurant une bonne expérience utilisateur. </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <!-- <div class="project-links">
+                        <a href="#">Voir le projet</a>
+                        <a href="#">Code source</a>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Capture d'écran 2025-06-22 142407.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 142416.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 142422.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 142432.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 142439.png" alt="">
+                    <img src="images/Capture d'écran 2025-06-22 142447.png" alt="">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Générateur de Citations – Projet Personnel</h3>
+                    <p class="project-description">
+                        Générateur de citations aléatoires en JavaScript. Interface simple, citations dynamiques, projet
+                        100 % local sans dépendance externe. </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <!-- <div class="project-links">
+                        <a href="#">Voir le projet</a>
+                        <a href="#">Code source</a>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- <div class="project-card">
+                <div class="project-image">🛒</div>
+                <div class="project-content">
+                    <h3 class="project-title">E-commerce Platform</h3>
+                    <p class="project-description">
+                        Plateforme e-commerce complète avec panier d'achat, gestion des commandes et interface
+                        d'administration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Voir le projet</a>
+                        <a href="#">Code source</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Restons en contact</h3>
+                <p>
+                    Je suis toujours à l'écoute de nouvelles opportunités et de projets passionnants. N'hésitez pas à me
+                    contacter pour discuter de vos besoins en développement web.
+                </p>
+                <ul class="contact-links">
+                    <li>📧 <a href="mailto:tognibooladikpo@gmail.com">tognibooladikpo@gmail.com</a></li>
+                    <li>💼 <a href="https://www.linkedin.com/in/gereau-tognibo-9a6306267" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>🔗 <a href="https://github.com/educ-fin" target="_blank">GitHub</a></li>
+                    <li>📱 <a href="tel:+2290190974973">+229 01 90 97 49 73</a></li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="from_name">Nom *</label>
+                        <input type="text" id="from_name" name="from_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="from_email">Email *</label>
+                        <input type="email" id="from_email" name="from_email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 TOGNIBO Oladikpo Géreau Auréole. Tous droits réservés.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.5/sweetalert2.min.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init('NAXZ7zkdZSpMQA8Cc');
+    })();
+</script>
+
+</body>
+
+</html>
